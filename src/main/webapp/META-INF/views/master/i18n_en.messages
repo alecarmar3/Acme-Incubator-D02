@@ -32,6 +32,22 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Favourite link
 master.menu.anonymous.bulletin.list = List bulletins
 master.menu.anonymous.bulletin.create = Create bulletin
+master.menu.anonymous.notice.list = List notices
+master.menu.anonymous.technology-record.list = List technology records
+master.menu.anonymous.tool-record.list = List tool records
+
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.favourite-link = Favourite link
+master.menu.authenticated.bulletin.list = List bulletins
+master.menu.authenticated.bulletin.create = Create bulletin
+master.menu.authenticated.notice.list = List notices
+master.menu.authenticated.technology-record.list = List technology records
+master.menu.authenticated.tool-record.list = List tool records
+master.menu.authenticated.inquiries.list = List inquiries
+master.menu.authenticated.overtures.list = List overtures
+master.menu.authenticated.challenges.list = List challenges
 
 # master.menu.administrator ###################################################
 

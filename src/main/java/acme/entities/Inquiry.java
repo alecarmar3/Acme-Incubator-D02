@@ -1,7 +1,6 @@
 
 package acme.entities;
 
-import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -41,8 +40,8 @@ public class Inquiry extends DomainEntity {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				deadline;
 
-	@NotNull
-	private Collection<String>	body;
+	@NotBlank
+	private String				body;
 
 	@NotNull
 	@Valid

@@ -37,13 +37,13 @@ public class Challenge extends DomainEntity {
 	private String				description;
 
 	@NotBlank
-	private String				expert;
+	private String				expertGoal;
 
 	@NotBlank
-	private String				average;
+	private String				averageGoal;
 
 	@NotBlank
-	private String				rookie;
+	private String				rookieGoal;
 
 	@NotNull
 	@Valid

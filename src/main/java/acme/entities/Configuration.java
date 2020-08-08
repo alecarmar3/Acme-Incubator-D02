@@ -1,11 +1,9 @@
 
 package acme.entities;
 
-import java.util.Collection;
-
 import javax.persistence.Entity;
 import javax.validation.constraints.Digits;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 
 import org.hibernate.validator.constraints.Range;
 
@@ -24,34 +22,34 @@ public class Configuration extends DomainEntity {
 
 	// Attributes --------------------------------------------------------------
 
-	@NotNull
-	private Collection<String>	spamWords;
+	@NotBlank
+	private String				spamWords;
 
 	@Range(min = 0, max = 1)
-	@Digits(integer = 1, fraction = 2)
+	@Digits(integer = 1, fraction = 3)
 	private Double				spamThreshold;
 
-	@NotNull
-	private Collection<String>	activitySectors;
+	@NotBlank
+	private String				activitySectors;
 
 	/*
 	 * @Transient
 	 * public boolean isSpam(final String text) {
 	 * boolean isSpam = false;
-	 * 
+	 *
 	 * List<String> splitted = Arrays.asList(text.split("\\s|\\p{Punct}"));
-	 * 
+	 *
 	 * splitted = splitted.stream().filter(s -> s != "").collect(Collectors.toList());
-	 * 
+	 *
 	 * int n = splitted.size();
 	 * int count = 0;
-	 * 
+	 *
 	 * //Cuidado con el formato de entrada, ha de ser ,+espacio
-	 * 
+	 *
 	 * String[] spam = this.spamWords.toLowerCase().split(",");
-	 * 
+	 *
 	 * String lowerCaseString = text.toLowerCase().replaceAll("\\s+{2,}", " ");
-	 * 
+	 *
 	 * for (String s : spam) {
 	 * s = s.trim();
 	 * count += org.apache.commons.lang3.StringUtils.countMatches(lowerCaseString, s);
@@ -60,7 +58,7 @@ public class Configuration extends DomainEntity {
 	 * break;
 	 * }
 	 * }
-	 * 
+	 *
 	 * return isSpam;
 	 * }
 	 */

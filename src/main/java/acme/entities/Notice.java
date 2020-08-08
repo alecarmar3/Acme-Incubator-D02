@@ -1,7 +1,6 @@
 
 package acme.entities;
 
-import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -35,7 +34,6 @@ public class Notice extends DomainEntity {
 	@NotBlank
 	private String				title;
 
-	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
 	private Date				creationDate;
@@ -49,6 +47,6 @@ public class Notice extends DomainEntity {
 
 	@NotNull
 	@URL
-	private Collection<String>	webLinks;
+	private String				webLinks;
 
 }
