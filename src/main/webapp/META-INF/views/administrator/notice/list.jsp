@@ -1,5 +1,6 @@
+
 <%--
-- banner.jsp
+- list.jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -9,14 +10,14 @@
 - purposes.  The copyright owner does not offer any warranties or representations, nor do
 - they accept any liabilities with respect to them.
 --%>
-
+ 
 <%@page language="java"%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<div class="rounded" align="center" style="background: <acme:message code='master.banner.background'/>">
-	<img src="images/banner.png" alt="Inc, Acme Incubator" class="img-fluid rounded"/>
-
-</div>
-
+<acme:list>
+	<acme:list-column code="administrator.notice.list.label.header-picture" path="headerPicture" width="20%"/>
+	<acme:list-column code="administrator.notice.list.label.title" path="title" width="20%"/>
+	<acme:list-column code="administrator.notice.list.label.deadline" path="deadline" width="60%"/>
+</acme:list>

@@ -1,5 +1,5 @@
 <%--
-- banner.jsp
+- form.jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -15,8 +15,11 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<div class="rounded" align="center" style="background: <acme:message code='master.banner.background'/>">
-	<img src="images/banner.png" alt="Inc, Acme Incubator" class="img-fluid rounded"/>
+<acme:form>
+	<acme:form-textarea code="administrator.configuration.form.label.spamWords" path="spamWords"/>
+	<acme:form-double code="administrator.configuration.form.label.spamThreshold" path="spamThreshold"/>
+	<acme:form-textarea code="administrator.configuration.form.label.activitySectors" path="activitySectors"/>
+	
+  	<acme:form-return code="administrator.configuration.form.button.return"/>
 
-</div>
-
+</acme:form>

@@ -1,0 +1,23 @@
+###### Form ######
+
+administrator.dashboard.form.title.statutes= Statistics
+administrator.dashboard.show.generalData = General data
+
+administrator.dashboard.form.totalNotices = Total Notices
+administrator.dashboard.form.totalTechnologyRecords = Total technology record
+administrator.dashboard.form.totalToolRecords = Total tool record
+
+administrator.dashboard.form.minimumMoneyIntervalActiveInquires = Minimum active inquiry's money intervals
+administrator.dashboard.form.maximumMoneyIntervalActiveInquires = Maximum active inquiry's money intervals
+administrator.dashboard.form.averageMoneyIntervalActiveInquires = Average active inquiry's money intervals
+administrator.dashboard.form.deviationMoneyIntervalActiveInquires = Deviation of active inquiry's money intervals
+
+administrator.dashboard.form.minimumMoneyIntervalActiveOvertures = Minimum active overture's money intervals
+administrator.dashboard.form.maximumMoneyIntervalActiveOvertures = Maximum active overture's money intervals
+administrator.dashboard.form.averageMoneyIntervalActiveOvertures = Average active overture's money intervals
+administrator.dashboard.form.deviationMoneyIntervalActiveOvertures = Deviation of active overture's money intervals
+
+###### Show ######
+
+administrator.dashboard.show.TechnologyChart = Technology records by activity sector chart
+administrator.dashboard.show.ToolChart = Tool records by activity sector chart

@@ -10,7 +10,7 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #FFFFFF 
 
 # master.welcome ##############################################################
 
@@ -53,6 +53,9 @@ master.menu.authenticated.challenges.list = List challenges
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.notice.list = List notices
+master.menu.administrator.dashboard.show = Show dashboard
+master.menu.administrator.configuration.show = Show configuration
 master.menu.administrator.shutdown = Shut down
 
 # master.menu.provider ########################################################

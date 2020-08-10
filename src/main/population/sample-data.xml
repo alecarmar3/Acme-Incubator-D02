@@ -77,7 +77,7 @@
 	
 	<bean name="technologyRecord1" class="acme.entities.TechnologyRecord">
 		<property name="title" value="Technology title 1"/>
-		<property name="activitySector" value="Education"/>
+		<property name="activitySector" value="Technology"/>
 		<property name="inventorName" value="Kfun Lai"/>
 		<property name="description" value="This is a description 1"/>
 		<property name="website" value="http://www.website1.com"/>
@@ -90,7 +90,7 @@
 	
 	<bean name="technologyRecord2" class="acme.entities.TechnologyRecord">
 		<property name="title" value="Technology title 2"/>
-		<property name="activitySector" value="Space"/>
+		<property name="activitySector" value="Health"/>
 		<property name="inventorName" value="Devin Kicht"/>
 		<property name="description" value="This is a description 2"/>
 		<property name="website" value="http://www.website2.com"/>
@@ -103,7 +103,7 @@
 	
 	<bean name="technologyRecord3" class="acme.entities.TechnologyRecord">
 		<property name="title" value="Technology title 3"/>
-		<property name="activitySector" value="Literature"/>
+		<property name="activitySector" value="Health"/>
 		<property name="inventorName" value="Alberto Gil"/>
 		<property name="description" value="This is a description 3"/>
 		<property name="website" value="http://www.website3.com"/>
@@ -114,11 +114,24 @@
 		<property name="stars" value="0"/>
 	</bean>
 	
+	<bean name="technologyRecord4" class="acme.entities.TechnologyRecord">
+		<property name="title" value="Technology title 4"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorName" value="Claire Monch"/>
+		<property name="description" value="This is a description 4"/>
+		<property name="website" value="http://www.website4.com"/>
+		<property name="email" value="clairemonch@gmail.com"/>
+		<property name="sourceType">
+		<value>CLOSED_SOURCE</value>
+		</property>
+		<property name="stars" value="3"/>
+	</bean>
+	
 	<!-- Tool Records -->
 	
 	<bean name="toolRecord1" class="acme.entities.ToolRecord">
 		<property name="title" value="Tool title 1"/>
-		<property name="activitySector" value="Machine"/>
+		<property name="activitySector" value="Technology"/>
 		<property name="inventorName" value="Luh Albeiro"/>
 		<property name="description" value="This is a description 1"/>
 		<property name="website" value="http://www.website1.com"/>
@@ -131,7 +144,7 @@
 	
 	<bean name="toolRecord2" class="acme.entities.ToolRecord">
 		<property name="title" value="Tool title 2"/>
-		<property name="activitySector" value="Optic"/>
+		<property name="activitySector" value="Arts"/>
 		<property name="inventorName" value="Michael Luks"/>
 		<property name="description" value="This is a description 2"/>
 		<property name="website" value="http://www.website2.com"/>
@@ -144,7 +157,7 @@
 	
 	<bean name="toolRecord3" class="acme.entities.ToolRecord">
 		<property name="title" value="Tool title 3"/>
-		<property name="activitySector" value="Production"/>
+		<property name="activitySector" value="Business"/>
 		<property name="inventorName" value="Gloria Estevez"/>
 		<property name="description" value="This is a description 3"/>
 		<property name="website" value="http://www.website3.com"/>
@@ -153,6 +166,19 @@
 		<value>CLOSED_SOURCE</value>
 		</property>
 		<property name="stars" value="4"/>
+	</bean>
+	
+	<bean name="toolRecord4" class="acme.entities.ToolRecord">
+		<property name="title" value="Tool title 4"/>
+		<property name="activitySector" value="Health"/>
+		<property name="inventorName" value="Rich Philips"/>
+		<property name="description" value="This is a description 4"/>
+		<property name="website" value="http://www.website4.com"/>
+		<property name="email" value="richpghilips@gmail.com"/>
+		<property name="sourceType">
+		<value>CLOSED_SOURCE</value>
+		</property>
+		<property name="stars" value="-1"/>
 	</bean>
 	
 	<!-- Inquiries -->
@@ -194,8 +220,8 @@
 		<property name="creationDate" value="2016/01/14 12:00"/>
 		<property name="deadline" value="2019/11/28 12:00"/>
 		<property name="body" value="This is a body 1"/>
-		<property name="moneyMin" value="00000600.00 EUR"/>
-		<property name="moneyMax" value="00001400.00 EUR"/>
+		<property name="moneyMin" value="00000100.00 EUR"/>
+		<property name="moneyMax" value="0000150.00 EUR"/>
 		<property name="email" value="overture1@gmail.com"/>
 	</bean>
 	
@@ -204,8 +230,8 @@
 		<property name="creationDate" value="2019/12/04 12:00"/>
 		<property name="deadline" value="2020/11/01 12:00"/>
 		<property name="body" value="This is a body 2"/>
-		<property name="moneyMin" value="00000100.00 EUR"/>
-		<property name="moneyMax" value="00000300.00 EUR"/>
+		<property name="moneyMin" value="00000800.00 EUR"/>
+		<property name="moneyMax" value="00000975.00 EUR"/>
 		<property name="email" value="overture2@gmail.com"/>
 	</bean>
 	
@@ -214,8 +240,8 @@
 		<property name="creationDate" value="2020/06/13 12:00"/>
 		<property name="deadline" value="2020/09/30 12:00"/>
 		<property name="body" value="This is a body 3"/>
-		<property name="moneyMin" value="00001600.00 EUR"/>
-		<property name="moneyMax" value="00002500.00 EUR"/>
+		<property name="moneyMin" value="00001500.00 EUR"/>
+		<property name="moneyMax" value="00002000.00 EUR"/>
 		<property name="email" value="overture3@gmail.com"/>
 	</bean>
 	
@@ -247,7 +273,7 @@
 	
 	<bean name="challenge3" class="acme.entities.Challenge">
 		<property name="title" value="This is challenge 3"/>
-		<property name="deadline" value="2021/10/25 12:00"/>
+		<property name="deadline" value="2020/8/25 12:00"/>
 		<property name="description" value="This is the description 3"/>
 		<property name="expertGoal" value="Do this one"/>
 		<property name="averageGoal" value="Do that second"/>

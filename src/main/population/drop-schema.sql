@@ -45,6 +45,8 @@
 
     drop table if exists `record`;
 
+    drop table if exists `research`;
+
     drop table if exists `technology_record`;
 
     drop table if exists `tool_record`;

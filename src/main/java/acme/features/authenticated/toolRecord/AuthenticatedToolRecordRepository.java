@@ -15,7 +15,7 @@ public interface AuthenticatedToolRecordRepository extends AbstractRepository {
 	@Query("select tr from ToolRecord tr where tr.id = ?1")
 	ToolRecord findOneById(int id);
 
-	@Query("select tr from ToolRecord tr ")
+	@Query("select tr from ToolRecord tr")
 	Collection<ToolRecord> findToolRecords();
 
 }

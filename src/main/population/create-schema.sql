@@ -146,6 +146,21 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `research` (
+       `id` integer not null,
+        `version` integer not null,
+        `body` varchar(255),
+        `creation_date` datetime(6),
+        `deadline` datetime(6),
+        `email` varchar(255),
+        `money_max_amount` double precision,
+        `money_max_currency` varchar(255),
+        `money_min_amount` double precision,
+        `money_min_currency` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `technology_record` (
        `id` integer not null,
         `version` integer not null,
