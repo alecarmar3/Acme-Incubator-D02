@@ -24,7 +24,7 @@
        `id` integer not null,
         `version` integer not null,
         `brand` varchar(255),
-        `credit_card` varchar(255),
+        `credit_card_number` varchar(255),
         `cvv` varchar(255),
         `expiration_date` varchar(255),
         `holder_name` varchar(255),
