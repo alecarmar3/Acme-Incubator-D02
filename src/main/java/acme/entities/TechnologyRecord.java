@@ -15,6 +15,4 @@ public class TechnologyRecord extends Record {
 
 	private static final long serialVersionUID = 1L;
 
-	// Attributes --------------------------------------------------------------
-
 }

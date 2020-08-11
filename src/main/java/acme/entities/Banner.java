@@ -36,7 +36,7 @@ public class Banner extends DomainEntity {
 
 	@NotBlank
 	@CreditCardNumber
-	private String				creditCard; //number
+	private String				creditCardNumber; //number
 
 	@NotBlank
 	private String				holderName;
@@ -44,11 +44,11 @@ public class Banner extends DomainEntity {
 	@NotBlank
 	private String				brand;
 
-	@Pattern(regexp = "^\\d{2}\\/\\d{2}$", message = "{administrator.commercial-banner.error.expiration-date-pattern}")
+	@Pattern(regexp = "^\\d{2}\\/\\d{2}$", message = "{default.banner.error.expiration-date-pattern}")
 	@NotBlank
 	private String				expirationDate;
 
-	@Pattern(regexp = "^[0-9]{3}$", message = "{administrator.commercial-banner.error.cvv-pattern}")
+	@Pattern(regexp = "^[0-9]{3}$", message = "{default.banner.error.cvv-pattern}")
 	@NotBlank
 	private String				cvv;
 

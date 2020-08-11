@@ -34,16 +34,8 @@ public class AuthenticatedBulletinCreateService implements AbstractCreateService
 		assert request != null;
 
 		Bulletin result;
-		Date moment;
-
-		moment = new Date(System.currentTimeMillis() - 1);
 
 		result = new Bulletin();
-		result.setAuthor("Place the author name");
-		result.setTitle("The best title for this is...");
-		result.setText("Something relevant?");
-		result.setMoment(moment);
-		result.setCategory("What's the category?");
 
 		return result;
 	}

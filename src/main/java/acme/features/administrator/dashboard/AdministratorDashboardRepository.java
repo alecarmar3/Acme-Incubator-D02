@@ -42,22 +42,4 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	@Query("select stddev((o.moneyMax.amount - o.moneyMin.amount)) from Overture o where (o.deadline > CURRENT_TIMESTAMP)")
 	Double deviationOvertureMoneyInterval();
 
-	@Query("select count(tr) from TechnologyRecord tr where tr.activitySector = 'Technology'")
-	Integer getTotalTechnologiesByTechnologySector();
-
-	@Query("select count(tr) from TechnologyRecord tr where tr.activitySector = 'Science'")
-	Integer getTotalTechnologiesByScienceSector();
-
-	@Query("select count(tr) from TechnologyRecord tr where tr.activitySector = 'Arts'")
-	Integer getTotalTechnologiesByArtsSector();
-
-	@Query("select count(tr) from TechnologyRecord tr where tr.activitySector = 'Business'")
-	Integer getTotalTechnologiesByBusinessSector();
-
-	@Query("select count(tr) from TechnologyRecord tr where tr.activitySector = 'Health'")
-	Integer getTotalTechnologiesByHealthSector();
-
-	@Query("select count(tr) from ToolRecord tr group by tr.activitySector")
-	Integer[] getTotalToolsByActivitySector();
-
 }

@@ -299,9 +299,9 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>258</x>
-      <y>318</y>
-      <w>210</w>
+      <x>1110</x>
+      <y>324</y>
+      <w>234</w>
       <h>114</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -310,7 +310,7 @@ Banner
 + picture: String {NotBlank, URL}
 + slogan: String {NotBlank}
 + targetUrl: String {NotBlank, URL}
-+ creditCard: String {NotBlank, CreditCardNumber}
++ creditCardNumber: String {NotBlank, CreditCardNumber}
 + holderName: String {NotBlank}
 + brand: String {NotBlank}
 + expirationDate: String {Pattern, NotBlank}
@@ -321,7 +321,7 @@ Banner
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>372</y>
+      <y>366</y>
       <w>150</w>
       <h>84</h>
     </coordinates>
@@ -338,8 +338,8 @@ Bulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>318</y>
+      <x>888</x>
+      <y>324</y>
       <w>174</w>
       <h>120</h>
     </coordinates>
@@ -349,9 +349,9 @@ Challenge
 + title: String {NotBlank}
 + deadline: Date {NotNull, Temporal}
 + description: String {NotBlank}
-+ expert: String {NotBlank}
-+ average: String {NotBlank}
-+ rookie: String {NotBlank}
++ expertGoal: String {NotBlank}
++ averageGoal: String {NotBlank}
++ rookieGoal: String {NotBlank}
 + expertReward: Money {NotNull, Valid}
 + averageReward: Money {NotNull, Valid}
 + rookieReward: Money {NotNull, Valid}</panel_attributes>
@@ -360,46 +360,46 @@ Challenge
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>666</x>
-      <y>318</y>
+      <x>0</x>
+      <y>462</y>
       <w>192</w>
       <h>66</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Configuration
 --
-+ spamWords: Collection&lt;String&gt; {NotNull}
++ spamWords: String {NotBlank}
 + spamThreshold: Double {Range, Digits}
-+ activitySectors: Collection&lt;String&gt; {NotNull}</panel_attributes>
++ activitySectors: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>876</x>
-      <y>318</y>
-      <w>192</w>
+      <x>420</x>
+      <y>324</y>
+      <w>162</w>
       <h>102</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Research
 --
 + title: String {NotBlank}
-+ creationDate: Date {NotNull, Temporal, Past}
-+ deadline: Date {NotNull, Temporal}
-+ body: Collection&lt;String&gt; {NotNull}
-+ moneyMin: Collection&lt;String&gt; {NotNull, Valid}
-+ moneyMax: Collection&lt;String&gt; {NotNull, Valid}
-+ email: Collection&lt;String&gt; {NotNull, Email}
++ creationDate: Date {Temporal, Past}
++ deadline: Date {Temporal}
++ body: String {NotBlank}
++ moneyMin: Money {NotNull, Valid}
++ moneyMax: Money {NotNull, Valid}
++ email: String {NotBlank, Email}
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1098</x>
-      <y>318</y>
-      <w>192</w>
+      <x>216</x>
+      <y>324</y>
+      <w>162</w>
       <h>96</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -407,18 +407,18 @@ Notice
 --
 + headerPicture: String {NotBlank, URL}
 + title: String {NotBlank}
-+ creationDate: Date {NotNull, Temporal, Past}
-+ deadline: Date {NotNull, Temporal}
++ creationDate: Date {Temporal, Past}
++ deadline: Date {Temporal}
 + body: String {NotBlank}
-+ webLinks: Collection&lt;String&gt; {NotNull, URL}
++ webLinks: String {URL}
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>984</x>
-      <y>498</y>
+      <x>504</x>
+      <y>486</y>
       <w>90</w>
       <h>42</h>
     </coordinates>
@@ -449,9 +449,9 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1320</x>
-      <y>318</y>
-      <w>156</w>
+      <x>660</x>
+      <y>324</y>
+      <w>150</w>
       <h>114</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -462,7 +462,7 @@ Record
 + inventorName: String {NotBlank}
 + description: String {NotBlank}
 + website: String {NotBlank, URL}
-+ email: String {NotNull, Email}
++ email: String {NotBlank, Email}
 + sourceType: SourceType {NotNull}
 + stars: Integer {NotNull, Min, Max}
 </panel_attributes>
@@ -471,19 +471,19 @@ Record
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1386</x>
-      <y>426</y>
+      <x>726</x>
+      <y>432</y>
       <w>18</w>
-      <h>54</h>
+      <h>66</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1278</x>
-      <y>498</y>
+      <x>618</x>
+      <y>516</y>
       <w>102</w>
       <h>42</h>
     </coordinates>
@@ -497,8 +497,8 @@ TechnologyRecord
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1410</x>
-      <y>498</y>
+      <x>750</x>
+      <y>516</y>
       <w>102</w>
       <h>42</h>
     </coordinates>
@@ -512,8 +512,8 @@ ToolRecord
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1320</x>
-      <y>462</y>
+      <x>660</x>
+      <y>480</y>
       <w>84</w>
       <h>48</h>
     </coordinates>
@@ -525,8 +525,8 @@ ToolRecord
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1386</x>
-      <y>456</y>
+      <x>726</x>
+      <y>474</y>
       <w>90</w>
       <h>54</h>
     </coordinates>
@@ -538,8 +538,8 @@ ToolRecord
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>864</x>
-      <y>498</y>
+      <x>402</x>
+      <y>486</y>
       <w>90</w>
       <h>42</h>
     </coordinates>
@@ -553,34 +553,58 @@ Inquiry
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>966</x>
-      <y>414</y>
+      <x>492</x>
+      <y>420</y>
       <w>18</w>
-      <h>60</h>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
-      <y>456</y>
-      <w>84</w>
-      <h>54</h>
+      <x>438</x>
+      <y>450</y>
+      <w>18</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>120.0;10.0;10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>966</x>
-      <y>456</y>
-      <w>78</w>
-      <h>54</h>
+      <x>438</x>
+      <y>450</y>
+      <w>126</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>110.0;70.0;110.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>190.0;60.0;190.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>540</y>
+      <w>204</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Dashboard
+--
++ totalNotices: Integer
++ totalTechnologyRecords: Integer
++ totalToolRecords: Integer
++ minimumMoneyIntervalActiveInquires: Double
++ maximumMoneyIntervalActiveInquires: Double
++ averageMoneyIntervalActiveInquires: Double
++ deviationMoneyIntervalActiveInquires: Double
++ minimumMoneyIntervalActiveOvertures: Double
++ maximumMoneyIntervalActiveOvertures: Double
++ averageMoneyIntervalActiveOvertures: Double
++ deviationMoneyIntervalActiveOvertures: Double</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

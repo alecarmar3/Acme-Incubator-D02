@@ -41,7 +41,7 @@ public class Record extends DomainEntity {
 	@URL
 	private String				website;
 
-	@NotNull
+	@NotBlank
 	@Email
 	private String				email;
 

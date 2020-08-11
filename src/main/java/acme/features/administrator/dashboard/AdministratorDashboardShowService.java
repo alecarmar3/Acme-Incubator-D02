@@ -31,9 +31,8 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "totalNotices", "totalTechnologyRecords", "totalToolRecords", "technologyActivitySectors", "toolActivitySectors", "minimumMoneyIntervalActiveInquires", "maximumMoneyIntervalActiveInquires",
-			"averageMoneyIntervalActiveInquires", "deviationMoneyIntervalActiveInquires", "minimumMoneyIntervalActiveOvertures", "maximumMoneyIntervalActiveOvertures", "averageMoneyIntervalActiveOvertures", "deviationMoneyIntervalActiveOvertures",
-			"totalTechnologiesByTechnologySector", "openSourceTechnologiesVSclosedSourceTechnologies", "openSourceToolsVSclosedSourceTools");
+		request.unbind(entity, model, "totalNotices", "totalTechnologyRecords", "totalToolRecords", "minimumMoneyIntervalActiveInquires", "maximumMoneyIntervalActiveInquires", "averageMoneyIntervalActiveInquires", "deviationMoneyIntervalActiveInquires",
+			"minimumMoneyIntervalActiveOvertures", "maximumMoneyIntervalActiveOvertures", "averageMoneyIntervalActiveOvertures", "deviationMoneyIntervalActiveOvertures");
 	}
 
 	@Override
@@ -54,7 +53,7 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		result.setAverageMoneyIntervalActiveOvertures(this.repository.averageOvertureMoneyInterval());
 		result.setDeviationMoneyIntervalActiveOvertures(this.repository.deviationOvertureMoneyInterval());
 
-		result.setTotalTechnologiesByTechnologySector(this.repository.getTotalTechnologiesByTechnologySector());
+		//result.setTotalTechnologiesByTechnologySector(this.repository.getTotalTechnologiesByTechnologySector());
 		//result.setTotalTechnologiesByScienceSector(this.repository.getTotalTechnologiesByScienceSector());
 		//result.setTotalTechnologiesByArtsSector(this.repository.getTotalTechnologiesByArtsSector());
 		//result.setTotalTechnologiesByBusinessSector(this.repository.getTotalTechnologiesByBusinessSector());

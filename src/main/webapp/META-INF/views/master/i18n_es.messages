@@ -54,7 +54,7 @@ master.menu.authenticated.challenges.list = Listar desafíos
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.notice.list = Listar comunicados
-master.menu.administrator.dashboard.show = Mostrar Estadísticas
+master.menu.administrator.dashboard.show = Mostrar estadísticas
 master.menu.administrator.configuration.show = Mostrar configuración
 master.menu.administrator.shutdown = Parar el sistema
 

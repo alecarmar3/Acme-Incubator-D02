@@ -78,7 +78,7 @@
 	<bean name="configuration" class="acme.entities.Configuration">
 		<property name="spamWords" value="sex, hard core, viagra, cialis, nigeria, you’ve won, million dollar, sexo, has ganado, millón de dólares"/>
 		<property name="spamThreshold" value="0.025"/>
-		<property name="activitySectors" value="Technology, Science, Arts, Business, Health, Tecnología, Ciencia, Arte, Negocio, Salud"/>
+		<property name="activitySectors" value="Technology, Science, Arts, Business, Health"/>
 	</bean>
 	
 </beans>

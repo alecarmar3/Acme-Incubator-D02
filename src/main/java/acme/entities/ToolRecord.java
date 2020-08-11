@@ -15,6 +15,4 @@ public class ToolRecord extends Record {
 
 	private static final long serialVersionUID = 1L;
 
-	// Attributes --------------------------------------------------------------
-
 }

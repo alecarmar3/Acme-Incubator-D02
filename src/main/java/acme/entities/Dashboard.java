@@ -27,7 +27,7 @@ public class Dashboard implements Serializable {
 	Double						deviationMoneyIntervalActiveOvertures;
 
 	//Charts
-	Integer						totalTechnologiesByTechnologySector;
+	//Integer						totalTechnologiesByTechnologySector;
 	//	Integer						totalTechnologiesByScienceSector;
 	//	Integer						totalTechnologiesByArtsSector;
 	//	Integer						totalTechnologiesByBusinessSector;
@@ -36,7 +36,7 @@ public class Dashboard implements Serializable {
 
 	//Ratios
 
-	Double[]					openSourceTechnologiesVSclosedSourceTechnologies;
-	Double[]					openSourceToolsVSclosedSourceTools;
+	//Double[]					openSourceTechnologiesVSclosedSourceTechnologies;
+	//Double[]					openSourceToolsVSclosedSourceTools;
 
 }

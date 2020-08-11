@@ -16,8 +16,3 @@ administrator.dashboard.form.minimumMoneyIntervalActiveOvertures = Intervalo mon
 administrator.dashboard.form.maximumMoneyIntervalActiveOvertures = Intervalo monetario máximo de las propuestas activas
 administrator.dashboard.form.averageMoneyIntervalActiveOvertures = Intervalo monetario medio de las propuestas activas
 administrator.dashboard.form.deviationMoneyIntervalActiveOvertures = Desviación del intervalo monetario de las propuestas activas
-
-###### Show ######
-
-administrator.dashboard.show.TechnologyChart = Gráfico de registros de tecnologías por sector de actividad
-administrator.dashboard.show.ToolChart = Gráfico de registros de herramientas por sector de actividad
