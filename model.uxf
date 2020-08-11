@@ -331,7 +331,7 @@ Bulletin
 + author: String {NotBlank}
 + title: String {NotBlank}
 + text: String {NotBlank}
-+ moment: Date {Temporal, Past}
++ moment: Date {NotNull, Temporal, Past}
 + category: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
@@ -385,8 +385,8 @@ Configuration
 Research
 --
 + title: String {NotBlank}
-+ creationDate: Date {Temporal, Past}
-+ deadline: Date {Temporal}
++ creationDate: Date {NotNull, Temporal, Past}
++ deadline: Date {NotNull, Temporal}
 + body: String {NotBlank}
 + moneyMin: Money {NotNull, Valid}
 + moneyMax: Money {NotNull, Valid}
@@ -407,8 +407,8 @@ Notice
 --
 + headerPicture: String {NotBlank, URL}
 + title: String {NotBlank}
-+ creationDate: Date {Temporal, Past}
-+ deadline: Date {Temporal}
++ creationDate: Date {NotNull, Temporal, Past}
++ deadline: Date {NotNull, Temporal}
 + body: String {NotBlank}
 + webLinks: String {URL}
 </panel_attributes>
