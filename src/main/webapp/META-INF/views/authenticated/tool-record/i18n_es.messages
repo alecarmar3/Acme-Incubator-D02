@@ -8,23 +8,13 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-###### List ######
+authenticated.toolRecord.label.title = Título
+authenticated.toolRecord.label.activitySector = Sector de la actividad
+authenticated.toolRecord.label.inventorName = Nombre del inventor
+authenticated.toolRecord.label.description = Descripción
+authenticated.toolRecord.label.website = Sitio web
+authenticated.toolRecord.label.email = Correo electrónico
+authenticated.toolRecord.label.sourceType = Tipo de código
+authenticated.toolRecord.label.stars = Estrellas
 
-authenticated.tool-record.list.label.title = Título
-authenticated.tool-record.list.label.activity-sector = Sector de la actividad
-authenticated.tool-record.list.label.stars = Estrellas
-
-###### Form ######
-
-authenticated.tool-record.form.label.title = Título
-authenticated.tool-record.form.label.activity-sector = Sector de la actividad
-authenticated.tool-record.form.label.inventor-name = Nombre del inventor
-authenticated.tool-record.form.label.description = Descripción
-authenticated.tool-record.form.label.website = Sitio web
-authenticated.tool-record.form.label.email = Correo electrónico
-authenticated.tool-record.form.label.source-type = Tipo de código
-authenticated.tool-record.form.label.stars = Estrellas
-
-###### Button ######
-
-authenticated.tool-record.form.button.return = Volver
+authenticated.toolRecord.button.return = Volver

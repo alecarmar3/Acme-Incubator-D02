@@ -8,21 +8,11 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-###### List ######
+administrator.notice.label.headerPicture = Foto principal
+administrator.notice.label.title = Título
+administrator.notice.label.creationDate = Fecha de creación
+administrator.notice.label.deadline = Fecha de vencimiento
+administrator.notice.label.body = Cuerpo
+administrator.notice.label.webLinks = Enlaces web
 
-administrator.notice.list.label.header-picture = Foto principal
-administrator.notice.list.label.title = Título
-administrator.notice.list.label.deadline = Fecha de vencimiento
-
-###### Form ######
-
-administrator.notice.form.label.header-picture = Foto principal
-administrator.notice.form.label.title = Título
-administrator.notice.form.label.creation-date = Fecha de creación
-administrator.notice.form.label.deadline = Fecha de vencimiento
-administrator.notice.form.label.body = Cuerpo
-administrator.notice.form.label.web-links = Enlaces web
-
-###### Button ######
-
-administrator.notice.form.button.return = Volver
+administrator.notice.button.return = Volver

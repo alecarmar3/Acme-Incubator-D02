@@ -8,21 +8,11 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-###### List ######
+authenticated.notice.label.headerPicture = Header picture
+authenticated.notice.label.title = Title
+authenticated.notice.label.creationDate = Creation date
+authenticated.notice.label.deadline = Deadline
+authenticated.notice.label.body = Body
+authenticated.notice.label.webLinks = Web links
 
-authenticated.notice.list.label.header-picture = Header picture
-authenticated.notice.list.label.title = Title
-authenticated.notice.list.label.deadline = Deadline
-
-###### Form ######
-
-authenticated.notice.form.label.header-picture = Header picture
-authenticated.notice.form.label.title = Title
-authenticated.notice.form.label.creation-date = Creation date
-authenticated.notice.form.label.deadline = Deadline
-authenticated.notice.form.label.body = Body
-authenticated.notice.form.label.web-links = Web links
-
-###### Button ######
-
-authenticated.notice.form.button.return = Return
+authenticated.notice.button.return = Return

@@ -18,10 +18,10 @@
 
 <acme:list readonly="true">
 	<acme:list-column code="authenticated.bulletin.label.author" path="author" width="20%"/>
-	<acme:list-column code="authenticated.bulletin.label.title" path="title" width="30%"/>
-	<acme:list-column code="authenticated.bulletin.label.text" path="text" width="40%"/>
-	<acme:list-column code="authenticated.bulletin.label.moment" path="moment" width="10%"/>
-	<acme:list-column code="authenticated.bulletin.label.category" path="category" width="10%"/>		
+	<acme:list-column code="authenticated.bulletin.label.title" path="title" width="20%"/>
+	<acme:list-column code="authenticated.bulletin.label.text" path="text" width="20%"/>
+	<acme:list-column code="authenticated.bulletin.label.moment" path="moment" width="20%"/>
+	<acme:list-column code="authenticated.bulletin.label.category" path="category" width="20%"/>		
 </acme:list>
 
 

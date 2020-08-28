@@ -1,5 +1,5 @@
 <%--
-- form.jsp
+- jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -16,14 +16,14 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="authenticated.inquiry.form.label.title" path="title"/>
-	<acme:form-moment code="authenticated.inquiry.form.label.creation-date" path="creationDate"/>
-	<acme:form-moment code="authenticated.inquiry.form.label.deadline" path="deadline"/>
-	<acme:form-textarea code="authenticated.inquiry.form.label.body" path="body"/>
-	<acme:form-money code="authenticated.inquiry.form.label.money-min" path="moneyMin"/>
-	<acme:form-money code="authenticated.inquiry.form.label.money-max" path="moneyMax"/>
-	<acme:form-textbox code="authenticated.inquiry.form.label.email" path="email"/>
+	<acme:form-textbox code="authenticated.inquiry.label.title" path="title"/>
+	<acme:form-moment code="authenticated.inquiry.label.creationDate" path="creationDate"/>
+	<acme:form-moment code="authenticated.inquiry.label.deadline" path="deadline"/>
+	<acme:form-textarea code="authenticated.inquiry.label.body" path="body"/>
+	<acme:form-money code="authenticated.inquiry.label.moneyMin" path="moneyMin"/>
+	<acme:form-money code="authenticated.inquiry.label.moneyMax" path="moneyMax"/>
+	<acme:form-textbox code="authenticated.inquiry.label.email" path="email"/>
 	
-  	<acme:form-return code="authenticated.inquiry.form.button.return"/>
+  	<acme:form-return code="authenticated.inquiry.button.return"/>
 	
 </acme:form>

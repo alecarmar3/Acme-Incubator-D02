@@ -1,5 +1,5 @@
 <%--
-- form.jsp
+- jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -16,13 +16,13 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-url code="anonymous.notice.form.label.header-picture" path="headerPicture"/>
-	<acme:form-textbox code="anonymous.notice.form.label.title" path="title"/>
-	<acme:form-moment code="anonymous.notice.form.label.creation-date" path="creationDate"/>
-	<acme:form-moment code="anonymous.notice.form.label.deadline" path="deadline"/>
-	<acme:form-textarea code="anonymous.notice.form.label.body" path="body"/>
-	<acme:form-url code="anonymous.notice.form.label.web-links" path="webLinks"/>
+	<acme:form-url code="anonymous.notice.label.header-picture" path="headerPicture"/>
+	<acme:form-textbox code="anonymous.notice.label.title" path="title"/>
+	<acme:form-moment code="anonymous.notice.label.creation-date" path="creationDate"/>
+	<acme:form-moment code="anonymous.notice.label.deadline" path="deadline"/>
+	<acme:form-textarea code="anonymous.notice.label.body" path="body"/>
+	<acme:form-url code="anonymous.notice.label.web-links" path="webLinks"/>
 	
-  	<acme:form-return code="anonymous.notice.form.button.return"/>
+  	<acme:form-return code="anonymous.notice.button.return"/>
 	
 </acme:form>

@@ -1,17 +1,15 @@
-###### List ######
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
 
-administrator.configuration.list.label.spamWords = Spam words
-administrator.configuration.list.label.spamThreshold = Spam threshold
-administrator.configuration.list.label.activitySectors = Activity sectors
+administrator.configuration.label.spamWords = Spam words
+administrator.configuration.label.spamThreshold = Spam threshold
+administrator.configuration.label.activitySectors = Activity sectors
 
-###### Form ######
-
-administrator.configuration.form.label.spamWords = Spam words
-administrator.configuration.form.label.spamThreshold = Spam threshold
-administrator.configuration.form.label.activitySectors = Activity sectors
-
-###### Button ######
-
-administrator.configuration.form.button.return = Return
-
-###### Error ######
+administrator.configuration.button.return = Return

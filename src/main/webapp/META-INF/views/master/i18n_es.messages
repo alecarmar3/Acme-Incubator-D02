@@ -29,22 +29,22 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favouriteLink = Enlace favorito
 master.menu.anonymous.bulletin.list = Ver boletines
 master.menu.anonymous.bulletin.create = Crear boletín
 master.menu.anonymous.notice.list = Listar comunicados
-master.menu.anonymous.technology-record.list = Listar registros de tecnología
-master.menu.anonymous.tool-record.list = Listar registros de herramientas
+master.menu.anonymous.technologyRecord.list = Listar registros de tecnología
+master.menu.anonymous.toolRecord.list = Listar registros de herramientas
 
 # master.menu.authenticated #######################################################
 
 master.menu.authenticated = Autenticado
-master.menu.authenticated.favourite-link = Enlace favorito
+master.menu.authenticated.favouriteLink = Enlace favorito
 master.menu.authenticated.bulletin.list = Ver boletines
 master.menu.authenticated.bulletin.create = Crear boletín
 master.menu.authenticated.notice.list = Listar comunicados
-master.menu.authenticated.technology-record.list = Listar registros de tecnología
-master.menu.authenticated.tool-record.list = Listar registros de herramientas
+master.menu.authenticated.technologyRecord.list = Listar registros de tecnología
+master.menu.authenticated.toolRecord.list = Listar registros de herramientas
 master.menu.authenticated.inquiries.list = Listar investigaciones
 master.menu.authenticated.overtures.list = Listar propuestas
 master.menu.authenticated.challenges.list = Listar desafíos
