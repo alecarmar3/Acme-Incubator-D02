@@ -11,8 +11,6 @@ import lombok.Setter;
 @Setter
 public class Inquiry extends Research {
 
-	// Serialization identifier -----------------------------------------------
-
 	private static final long serialVersionUID = 1L;
 
 }

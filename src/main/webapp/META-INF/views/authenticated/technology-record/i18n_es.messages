@@ -8,23 +8,13 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-###### List ######
+authenticated.technologyRecord.label.title = Título
+authenticated.technologyRecord.label.activitySector = Sector de la actividad
+authenticated.technologyRecord.label.inventorName = Nombre del inventor
+authenticated.technologyRecord.label.description = Descripción
+authenticated.technologyRecord.label.website = Sitio web
+authenticated.technologyRecord.label.email = Correo electrónico
+authenticated.technologyRecord.label.sourceType = Tipo de código
+authenticated.technologyRecord.label.stars = Estrellas
 
-authenticated.technology-record.list.label.title = Título
-authenticated.technology-record.list.label.activity-sector = Sector de la actividad
-authenticated.technology-record.list.label.stars = Estrellas
-
-###### Form ######
-
-authenticated.technology-record.form.label.title = Título
-authenticated.technology-record.form.label.activity-sector = Sector de la actividad
-authenticated.technology-record.form.label.inventor-name = Nombre del inventor
-authenticated.technology-record.form.label.description = Descripción
-authenticated.technology-record.form.label.website = Sitio web
-authenticated.technology-record.form.label.email = Correo electrónico
-authenticated.technology-record.form.label.source-type = Tipo de código
-authenticated.technology-record.form.label.stars = Estrellas
-
-###### Button ######
-
-authenticated.technology-record.form.button.return = Volver
+authenticated.technologyRecord.button.return = Volver

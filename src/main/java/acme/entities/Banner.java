@@ -17,11 +17,7 @@ import lombok.Setter;
 @Setter
 public class Banner extends DomainEntity {
 
-	// Serialization identifier -----------------------------------------------
-
 	private static final long	serialVersionUID	= 1L;
-
-	// Attributes --------------------------------------------------------------
 
 	@NotBlank
 	@URL

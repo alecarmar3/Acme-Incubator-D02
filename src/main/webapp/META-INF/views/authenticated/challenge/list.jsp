@@ -1,6 +1,6 @@
 
 <%--
-- list.jsp
+- jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -17,7 +17,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list>
-	<acme:list-column code="authenticated.challenge.list.label.title" path="title" width="20%"/>
-	<acme:list-column code="authenticated.challenge.list.label.deadline" path="deadline" width="20%"/>
+	<acme:list-column code="authenticated.challenge.label.title" path="title" width="50%"/>
+	<acme:list-column code="authenticated.challenge.label.deadline" path="deadline" width="50%"/>
 	
 </acme:list>

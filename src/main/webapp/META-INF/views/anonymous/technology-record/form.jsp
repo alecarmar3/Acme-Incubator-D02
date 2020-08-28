@@ -1,5 +1,5 @@
 <%--
-- form.jsp
+- jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -16,15 +16,15 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="anonymous.technology-record.form.label.title" path="title"/>
-	<acme:form-textbox code="anonymous.technology-record.form.label.activity-sector" path="activitySector"/>
-	<acme:form-textbox code="anonymous.technology-record.form.label.inventor-name" path="inventorName"/>
-	<acme:form-textarea code="anonymous.technology-record.form.label.description" path="description"/>
-	<acme:form-url code="anonymous.technology-record.form.label.website" path="website"/>
-	<acme:form-textbox code="anonymous.technology-record.form.label.email" path="email"/>
-	<acme:form-textbox code="anonymous.technology-record.form.label.source-type" path="sourceType"/>
-	<acme:form-integer code="anonymous.technology-record.form.label.stars" path="stars"/>
+	<acme:form-textbox code="anonymous.technologyRecord.label.title" path="title"/>
+	<acme:form-textbox code="anonymous.technologyRecord.label.activity-sector" path="activitySector"/>
+	<acme:form-textbox code="anonymous.technologyRecord.label.inventor-name" path="inventorName"/>
+	<acme:form-textarea code="anonymous.technologyRecord.label.description" path="description"/>
+	<acme:form-url code="anonymous.technologyRecord.label.website" path="website"/>
+	<acme:form-textbox code="anonymous.technologyRecord.label.email" path="email"/>
+	<acme:form-textbox code="anonymous.technologyRecord.label.source-type" path="sourceType"/>
+	<acme:form-integer code="anonymous.technologyRecord.label.stars" path="stars"/>
 	
-  	<acme:form-return code="anonymous.technology-record.form.button.return"/>
+  	<acme:form-return code="anonymous.technologyRecord.button.return"/>
 	
 </acme:form>

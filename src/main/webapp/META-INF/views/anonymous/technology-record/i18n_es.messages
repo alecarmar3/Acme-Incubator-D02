@@ -8,23 +8,13 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-###### List ######
+anonymous.technologyRecord.label.title = Título
+anonymous.technologyRecord.label.activity-sector = Sector de la actividad
+anonymous.technologyRecord.label.inventor-name = Nombre del inventor
+anonymous.technologyRecord.label.description = Descripción
+anonymous.technologyRecord.label.website = Sitio web
+anonymous.technologyRecord.label.email = Correo electrónico
+anonymous.technologyRecord.label.source-type = Tipo de código
+anonymous.technologyRecord.label.stars = Estrellas
 
-anonymous.technology-record.list.label.title = Título
-anonymous.technology-record.list.label.activity-sector = Sector de la actividad
-anonymous.technology-record.list.label.stars = Estrellas
-
-###### Form ######
-
-anonymous.technology-record.form.label.title = Título
-anonymous.technology-record.form.label.activity-sector = Sector de la actividad
-anonymous.technology-record.form.label.inventor-name = Nombre del inventor
-anonymous.technology-record.form.label.description = Descripción
-anonymous.technology-record.form.label.website = Sitio web
-anonymous.technology-record.form.label.email = Correo electrónico
-anonymous.technology-record.form.label.source-type = Tipo de código
-anonymous.technology-record.form.label.stars = Estrellas
-
-###### Button ######
-
-anonymous.technology-record.form.button.return = Volver
+anonymous.technologyRecord.button.return = Volver

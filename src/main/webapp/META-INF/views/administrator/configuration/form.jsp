@@ -16,10 +16,10 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textarea code="administrator.configuration.form.label.spamWords" path="spamWords"/>
-	<acme:form-double code="administrator.configuration.form.label.spamThreshold" path="spamThreshold"/>
-	<acme:form-textarea code="administrator.configuration.form.label.activitySectors" path="activitySectors"/>
+	<acme:form-textarea code="administrator.configuration.label.spamWords" path="spamWords"/>
+	<acme:form-double code="administrator.configuration.label.spamThreshold" path="spamThreshold"/>
+	<acme:form-textarea code="administrator.configuration.label.activitySectors" path="activitySectors"/>
 	
-  	<acme:form-return code="administrator.configuration.form.button.return"/>
+  	<acme:form-return code="administrator.configuration.button.return"/>
 
 </acme:form>

@@ -8,23 +8,12 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-###### List ######
+authenticated.overture.label.title = Title
+authenticated.overture.label.creationDate = Creation date
+authenticated.overture.label.deadline = Deadline
+authenticated.overture.label.body = Body
+authenticated.overture.label.moneyMin = Minimum money
+authenticated.overture.label.moneyMax = Máximum money
+authenticated.overture.label.email = Email
 
-authenticated.overture.list.label.title = Title
-authenticated.overture.list.label.deadline = Deadline
-authenticated.overture.list.label.money-min = Minimum money
-authenticated.overture.list.label.money-max = Maximum money
-
-###### Form ######
-
-authenticated.overture.form.label.title = Title
-authenticated.overture.form.label.creation-date = Creation date
-authenticated.overture.form.label.deadline = Deadline
-authenticated.overture.form.label.body = Body
-authenticated.overture.form.label.money-min = Minimum money
-authenticated.overture.form.label.money-max = Máximum money
-authenticated.overture.form.label.email = Email
-
-###### Button ######
-
-authenticated.overture.form.button.return = Return
+authenticated.overture.button.return = Return
