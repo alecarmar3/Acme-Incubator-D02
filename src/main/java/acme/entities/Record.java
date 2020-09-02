@@ -8,6 +8,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.DomainEntity;
@@ -22,23 +23,28 @@ public class Record extends DomainEntity {
 	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
+	@Length(max = 250)
 	private String				title;
 
 	@NotBlank
 	private String				activitySector;
 
 	@NotBlank
+	@Length(max = 250)
 	private String				inventorName;
 
 	@NotBlank
+	@Length(max = 250)
 	private String				description;
 
 	@NotBlank
 	@URL
+	@Length(max = 250)
 	private String				website;
 
 	@NotBlank
 	@Email
+	@Length(max = 250)
 	private String				email;
 
 	@NotNull
